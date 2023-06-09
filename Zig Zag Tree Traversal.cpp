@@ -21,6 +21,7 @@ class Solution{
     	    {
     	        Node *temp=q.front();
     	        q.pop();
+                // Normal insert or Reverse Insert
     	        int index = LefttoRightFlag ? i : size-i-1;
     	        ans[index]=temp->data;
     	        
